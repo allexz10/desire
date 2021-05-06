@@ -233,7 +233,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    
     max-width: 565px;
     width: 100%;
     background-color: #fff;
@@ -292,8 +291,13 @@
      }
      &__images{
         position: fixed; 
-        max-width: 485px;
+        max-width: 350px;
         
+    }
+    &__content{
+        
+        
+        width: 350px;
     }
 }
 
